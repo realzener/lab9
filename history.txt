@@ -1,0 +1,60 @@
+ 1784  git clone git@github.com:realzener/lab9.git
+ 1785  ls
+ 1786  cd lab9
+ 1787  nano git@github.com:realzener/lab9.git
+ 1788  nano validate-data.sh
+ 1789  ls
+ 1790  ./validate-data.sh
+ 1791  ./validate-data.sh
+ 1792  ./validate-data.sh john 123
+ 1793  ./validate-data.sh john 12322222222222
+ 1794  nano validate-data.sh
+ 1795  ./validate-data.sh john 12322222222222
+ 1796  ./validate-data.sh "john  a"12322222222222
+ 1797  ./validate-data.sh "john  a"1232
+ 1798  mkdir .github/workflows/
+ 1799  mkdir ./.github/workflows/
+ 1800  mkdir ./.github/workflows
+ 1801  mkdir ./.github/
+ 1802  mkdir ./.github/workflows
+ 1803  cd .github
+ 1804  cd workflows
+ 1805  ls
+ 1806  nano  basictests.yml 
+ 1807  nano basictests.yml 
+ 1808  ls
+ 1809  cd ..
+ 1810  cd ..
+ 1811  cd ..
+ 1812  cd lab9
+ 1813  ls
+ 1814  git add .
+ 1815  git add .github/workflows/*
+ 1816  git commit
+ 1817  git push
+ 1818  git switch -c branch2
+ 1819  git branch
+ 1820  nano .github/workflows/basictests.yml
+ 1821  git commit
+ 1822  git add .
+ 1823  git commit -a
+ 1824  git push
+ 1825  nano .github/workflows/basictests.yml
+ 1826  ls
+ 1827  nano validate-data.sh
+ 1828  git add .
+ 1829  git commit
+ 1830  git push
+ 1831  git switch -c test
+ 1832  nano validate-data.sh
+ 1833  git push
+ 1834  nano .github/workflows/basictests.yml
+ 1835  git push
+ 1836  gti commit -a
+ 1837  git commit -a
+ 1838  git push
+ 1839  git commit -a
+ 1840  git push
+ 1841  history 
+ 1842  history 1700
+ 1843  history 1784
