@@ -1,4 +1,4 @@
-name: Basic Tests
+name: Basic T2ests
 
 on:
   push:
