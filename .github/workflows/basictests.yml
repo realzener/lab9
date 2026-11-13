@@ -1,8 +1,14 @@
 name: Basic Tests
 
 on:
-  push:
+  push: 
+	branches:
+	- main
+	- test
   pull_request:
+	braches:
+	- main
+	- test
   workflow_dispatch:
 
 jobs:
